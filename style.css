@@ -1,0 +1,124 @@
+body{
+    background-color: rgb(41, 15, 41);
+    color: rgb(165, 206, 247);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(13, 13, 21);
+    color: rgb(30, 95, 169);
+    position: relative;
+    width: 100vw;
+    max-width: 100vw;
+    min-width: 558px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 22px;
+    list-style: none;
+}
+nav ul li a {
+    text-decoration: none;
+    color: rgb(30, 95, 169);
+}
+nav ul li a:hover{
+    color: rgb(98, 157, 224);
+}
+.left{
+    font-size: 35px;
+}
+.firstsection{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px 0px;
+
+}
+.firstsection >div {
+    width: 30%;
+}
+@keyframes opecity{
+    from{opacity: 0%;}
+    to{opacity: 100%;}
+}
+.leftsection{
+    margin-left: 5%;
+    padding-top: 15%;
+    padding-left: 15%;
+}
+.avtar{
+   align-items: center;
+    border-radius: 50%;
+    background-color: #ff931e;
+    transform: translate(-50%, -50%);
+    clip-path: inset(-90vw 0 0 0 round 50%);
+    border: 6px solid rgb(234, 234, 234);
+}
+.avtar img{
+    transform: translate(-10%, 10%) scale(1.6);
+    width:100%;
+    transition: transform 1s ease;
+}
+.avtar:hover img{
+    transform: translate(-2%, -15%) scale(2);
+}
+.rightsection{
+    font-size: 50px;
+    margin: 50px 0px;
+    margin-right: 10%;
+}
+#name{
+    -webkit-text-stroke: 2px greenyellow;
+    color: black;  
+    font-size: 60px; 
+}
+#name:hover{
+    -webkit-text-stroke: 2px rgb(46, 55, 33);
+    color: red;
+}
+.border{
+    border-radius: 50%;
+    border-style: dashed dashed dashed solid;
+}
+.contact{
+    display: inline-flex;
+    margin-top: 30px;
+}
+#insta img{
+    width: 3rem;
+    margin-right: 50px;
+}
+#whatsapp img{
+    width: 3rem;
+    margin-right: 50px;
+}
+#facebook img{
+    width: 3rem;
+    margin-right: 50px;
+}
+#mail img{
+    width: 3rem;
+    margin-right: 50px;
+}
+#telegram img{
+    width: 3rem;
+    margin-right: 50px;
+}
+.contact img{
+    filter: invert();
+}
+.contact img:hover{
+    filter: initial;
+}
+.ed{
+    border: solid black;
+    height: 100vh;
+    width: 100vw;
+}
